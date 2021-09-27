@@ -8,23 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9DAF79132701ABC600DE5F7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF79122701ABC600DE5F7D /* main.cpp */; };
+		9DAF79222701AF5000DE5F7D /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DAF79212701AF5000DE5F7D /* input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9DAF790D2701ABC600DE5F7D /* CopyFiles */ = {
+		9DAF791C2701AD9600DE5F7D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				9DAF79222701AF5000DE5F7D /* input.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9DAF790F2701ABC600DE5F7D /* wargamessim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wargamessim; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAF79122701ABC600DE5F7D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9DAF79212701AF5000DE5F7D /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = input.txt; path = wargamessim/input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		9DAF79062701ABC600DE5F7D = {
 			isa = PBXGroup;
 			children = (
+				9DAF79212701AF5000DE5F7D /* input.txt */,
 				9DAF79112701ABC600DE5F7D /* wargamessim */,
 				9DAF79102701ABC600DE5F7D /* Products */,
 			);
@@ -71,7 +75,7 @@
 			buildPhases = (
 				9DAF790B2701ABC600DE5F7D /* Sources */,
 				9DAF790C2701ABC600DE5F7D /* Frameworks */,
-				9DAF790D2701ABC600DE5F7D /* CopyFiles */,
+				9DAF791C2701AD9600DE5F7D /* CopyFiles */,
 			);
 			buildRules = (
 			);
